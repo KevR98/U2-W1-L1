@@ -219,7 +219,7 @@ footer a {
 
 /* DISPLAY LAPTOP */
 
-@media screen and (min-width: 1200px) and (orientation: landscape) {
+@media screen and (min-width: 1200px) {
   header {
     text-align: left;
   }
