@@ -223,17 +223,20 @@ footer a {
   header {
     text-align: left;
   }
-  header div {
-    max-width: 50%;
-  }
-  header img,
-  header p {
+  header .brand,
+  header nav,
+  header .brand p {
     display: inline-block;
-    vertical-align: top;
   }
 
-  nav {
-    float: right;
+  header .brand {
+    width: 75%;
+  }
+  header .brand img {
+    vertical-align: middle;
+  }
+  header .brand p {
+    margin-bottom: 0;
   }
 
   article h1 {
